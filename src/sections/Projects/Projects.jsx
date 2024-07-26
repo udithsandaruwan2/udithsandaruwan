@@ -1,6 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import visionoptical from '../../assets/visionoptical.png';
 import mooverly from '../../assets/mooverly.png';
+import animearc from '../../assets/animearc.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -19,6 +20,12 @@ function Projects() {
           link="https://mooverly-a7aec9783356.herokuapp.com"
           h3="Mooverly Console"
           p="An admin pannel"
+        />
+        <ProjectCard
+          src={animearc}
+          link="https://animearc-d8h1.onrender.com"
+          h3="AnimeArc"
+          p="Anime Website"
         />
         {/* <ProjectCard
           src={hipsster}
