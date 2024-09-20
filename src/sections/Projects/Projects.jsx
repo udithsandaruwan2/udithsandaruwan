@@ -46,7 +46,12 @@ function Projects() {
           h3="FitLift"
           p="Fitness App"
         /> */}
+        <h6 style={{ textAlign: 'center' }}></h6>
+        <a href="https://github.com/udithsandaruwan2" target="_blank" rel="noopener noreferrer">
+          More Projects &rarr;
+        </a>
       </div>
+      
     </section>
   );
 }
